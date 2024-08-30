@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(./../fonts/assets/fonts/Montserrat-Italic-VariableFont_wght.ttf);
+}
+
+h3{
+    margin: 20px auto;
+}
+
+h3::first-letter{
+    color: teal;
+    font-size: 2.5rem;
+}
+
+h3:hover::first-letter{
+    color: #a020f0;
+}
+
+ul li{margin-bottom: 10px;
+}
+
+.lipoint1::first-letter{
+    color: #00bfff;
+    font-size: 1.8rem;
+    text-decoration: overline #00bfff;
+
+}
+
+.lipoint2::first-letter{
+    color: #c71585;
+    font-size: 1.8rem;
+    text-decoration: underline;
+}
+
+.lipoint3::first-letter{
+    color: #32cd32;
+    font-size: 1.8rem;
+    text-decoration: line-through;
+    
+}

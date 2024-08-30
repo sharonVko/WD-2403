@@ -1,0 +1,19 @@
+
+
+article{
+    border: 2px solid;
+    display: inline-block;
+    margin: 12px;
+    padding: 12px;
+    height: 160px;
+    width: 400px;
+    border-color: grey;
+}
+
+li{
+    list-style: none;
+}
+
+h1{
+ padding-bottom: 14px;
+}

@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    background-color: rgb(245, 153, 143);
+    width: 200px;
+    padding: 25px;
+    border: 25px solid black;
+    margin: 25px auto;
+}
+
+
+/* - Für diese Übung nutzt du bitte den vorgegebenen HTML-Code und wendest bitte folgendes an:
+    - Ändere die Farbe des Hintergrundes.
+    - Gib dem Element die Breite "200px".
+    - Gib dem Element einen Innenabstand von "25px".
+    - Gib dem Element einen Rahmen von "25px solid black".
+    - Gib dem Element einen Außenabstand von "25px".
+    - Ändere den Wert margin-left und margin-right in "auto". */
+
+    /* Bild in Vorlage nicht identisch, was habe ich falsch gemacht? XD  */

@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    width:50vw;
+}
+
+.banana{
+    width: 400px;
+}
+
+.pineapple{
+    width: 50%;
+}
+
+.citrus{
+    width: 20em;
+}
+
+.cherry{
+    width: 40rem;
+}
+
+.papaya{
+    width: 35vw;
+}
+
+.watermelon{
+    width: 75vh;
+}
