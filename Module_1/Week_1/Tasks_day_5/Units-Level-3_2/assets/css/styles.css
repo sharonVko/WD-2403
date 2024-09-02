@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-image: url(./../img/page404.avif);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    overflow: hidden;
+    text-align: center;
+    color: rgb(8, 19, 8)
+}
+
+
+h1{
+    font-size: 4rem;
+    margin-top:  7.8em;
+    opacity: 0.9;
+}
+h2{
+    font-size: 3rem;
+    margin-bottom: 12px;
+    opacity: 0.9;
+}   
+
+p{
+ font-size: 1.6rem;
+ opacity: 0.9;
+ font-style: oblique;
+}

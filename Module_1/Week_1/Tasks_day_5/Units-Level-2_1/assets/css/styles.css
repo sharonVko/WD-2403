@@ -4,7 +4,39 @@
     box-sizing: border-box;
 }
 
-li{
+ul{
+    padding-inline-start: 1.2em;
+    list-style: none;
+}
 
+li{
+    line-height: 1.5em;
     font-size: 0.8em;
 }
+
+.pets{
+    border: 2px solid;
+    margin: 10px;
+    padding: 20px;
+    font-size:2rem ;
+}
+
+.dog li::marker {
+    content: "\1F436";
+}
+
+.cat li::marker {
+    content: "\1F431";
+}
+
+.parrot li::marker {
+    content: "\1F99C";
+}   
+
+.snake li::marker {
+    content: "\1F40D";
+}
+.lizzard li::marker {
+    content: "\1F98E";
+}
+ 

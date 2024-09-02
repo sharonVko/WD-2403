@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: "OpenSansItalic";
+    background-image: url(./../img/clouds_img.avif);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: "OpenSansItalic";
+    src: url(./../fonts/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+}
+
+main{
+    padding: 5%;
+}
+article{
+    padding: 2%;
+    margin: 0 100px;
+    border-radius: 5rem;
+    background-color: antiquewhite;
+    opacity: 0.7;
+    /* background-color: antiquewhite;
+    opacity: 0.7;
+    padding: 18px;
+    margin: 1.5em 2.8em;
+    border-radius: 2.8em; */
+}
+
+h1{
+    font-size: 2rem ;
+    margin: 1.4em 4em 0.2em 4em;
+    padding: 0 15px;
+    text-align: center;
+    text-shadow: bisque 2px 2px;
+}
+
+h2{
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: center;
+    margin: 8px;
+}
+
+p{
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center; 
+    margin: 6px;
+}
