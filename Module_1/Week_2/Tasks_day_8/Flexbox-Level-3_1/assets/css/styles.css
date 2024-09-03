@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://images.unsplash.com/photo-1443527216320-7e744084f5a7?q=80&w=1738&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+    
+@font-face {
+    font-family: "Raleway";
+    src: url(./../fonts/Raleway-VariableFont_wght.ttf);
+}
+
+header{
+    border-bottom: 2px solid lightgrey;
+    padding: 76px;
+    opacity: 0.9;
+    background-color: white;
+}
+
+nav{
+    font-family: "Raleway";
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+a, ul li{
+    text-decoration: none;
+    list-style: none;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    width: 52%;
+}
+
+.logo{
+   color: #666;
+}
+.logo:hover{
+    color: 333;
+}
+
+ul li a{
+    /* display: flex;
+    flex-direction: row; */
+font-size: 10px;
+color: #333;
+}
+ ul li a:hover{
+    color: #337ab7;
+ }
+
+ section{
+    color: white;
+    font-family: "Raleway";
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 24em;
+ }
+
+ h1{
+    font-size: 3rem;
+    font-weight: 200;
+    margin-bottom: 20px;
+ }
+
+p{
+    font-weight: 200;
+}
+
+.buttons{
+
+}
+
+.download{
+    border: 1px solid white;
+    color: white;
+    background: none;
+    padding: 16px 30px;
+    font-size: 10px;
+}
+
+.read{
+    background-color: rgb(155, 38, 155);
+    color: white;
+    padding: 16px 40px;
+    font-size: 10px;
+}
