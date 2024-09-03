@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Forms-Level-2_3</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>
+              Register form  
+            </legend>
+
+            <section>
+                <label  for="text">Name</label>
+                <input class="name" type="text" name="" id="text" placeholder="Name">
+               
+            </section>
+            <section>
+                <label  for="text">Surname</label>
+                <input class="surname" type="text" name="" id="text" placeholder="Surname">
+               
+            </section>
+            <section>
+                <label for="mail">Email</label>
+                <input class="email" type="email" name="" id="mail" placeholder="Email">
+               
+            </section>
+
+            
+                <div>
+                    <label for="text">Gender</label>
+                    <label class="radiomale" for="text" >Male</label>
+                    <input  type="radio" name="auswahl" id="male" checked>
+                    <label for="text">Female</label>
+                    <input class="radiofemale" type="radio" name="auswahl" id="female">
+                </div>
+                <div>
+                    <label for="picture">Picture</label>
+                    <input class="fileupload" type="file" name="" id="file">
+                </div>
+                <div>
+                    <label for="text">Country</label>
+                    <select class="dropdown" name="country">
+                        <option value="de">Germany</option>
+                        <option value="fr">France</option>
+                        <option value="us">USA</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="preflng" for="preflanguage">Preferred languages</label>
+                    <select name="preflang" id="preflang" size="4">
+                        <option value="html">HTML</option>
+                        <option value="css">Css</option>
+                        <option value="js">JS</option>
+                        <option value="react">React</option>
+                        <option value="angular">Angular</option>
+                    </select>
+                    <label class="chooselang" for="">(To choose more than one use cmd key)</label>
+                </div>
+                <div>
+                    <label class="check" for="activityfield">Field of activity</label>
+                    <input  type="checkbox" name="activityfield" id="activity">
+                    <label  for="it">IT</label>
+                    <input type="checkbox" name="activityfield" id="activity">
+                    <label for="design">Design</label>
+                    <input type="checkbox" name="activityfield" id="activity">
+                    <label for="other">Other</label>
+                </div>
+                <div>
+                    <input type="submit" value="Send">
+                    <input type="button" value="Cancel">
+                </div>
+            
+        </fieldset>
+    </form>
+</body>
+</html>

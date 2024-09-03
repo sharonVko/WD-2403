@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 5vh 10vw;
+}
+
+fieldset{
+    border: 1px solid;
+    padding: 10px;
+    max-width: 890px;
+}
+
+.name, .email{
+    margin: 3px 90px;
+}
+
+.surname{
+    margin: 3px 72px;
+}
+
+.radiomale{
+    padding:  0 10px 0 80px;
+}
+
+.fileupload{
+    padding: 3px 82px;
+}
+
+.dropdown{
+    margin: 2px 74px;
+}
+
+.preflng{
+    padding: 50px 0; /* was tun, um label zu zentrieren? */
+}
+.chooselang{
+    font-size: smaller;
+}
+
+.check{
+    padding: 8px 26px 0 0 ;
+}

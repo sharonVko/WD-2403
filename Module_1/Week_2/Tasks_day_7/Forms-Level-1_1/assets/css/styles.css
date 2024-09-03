@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 5vh 10vw;
+}
+section{
+    margin: 4px auto;
+    
+} 
+
+.req{
+    color: red;
+}
+
+ h2{
+    font-size: 14px;
+ }
+ .email{
+    padding: 0 5.7em;
+ }
+
+ .thema{
+    padding: 0 8.3em ;
+ }
+
+ .nachricht{
+    padding: 3em 5.8em;
+    margin-bottom: 6px;
+ }
+
+ input[type="submit"] {
+    border: none;
+    padding: 4px 8.2rem;
+    background: rgb(63, 171, 160);
+    color: white;
+}
+
+.subbtn:hover { color: white; background: black; }

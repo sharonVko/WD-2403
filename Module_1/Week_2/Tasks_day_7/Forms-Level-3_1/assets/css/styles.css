@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 5vh 10vw;
+}
+
+fieldset{
+    border: 2px solid teal;
+    border-radius: 6px;
+    background-color: beige;
+    padding: 5px 5px;
+    max-width: 550px;
+
+}
+
+.headline{
+    border: 10px solid teal;
+    border-radius: 6px;
+    background-color: rgb(96, 143, 138);
+    color: antiquewhite;
+    text-shadow: 2px 5px 5px brown;
+    padding: 20px;
+
+}
+
+h3{
+    color: rgb(18, 59, 59);
+    padding: 10px 15px;
+}
+
+.nameadd{
+    background-color: rgb(159, 178, 184);
+    margin: 40px;
+    padding: 20px;
+    border-radius: 3px;
+}
