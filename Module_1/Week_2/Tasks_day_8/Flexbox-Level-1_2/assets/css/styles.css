@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://plus.unsplash.com/premium_photo-1710064057043-d301e344e348?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDV8fGZsZXhpYmxlJTIwYnJlYWtkYW5jZXxlbnwwfHwwfHx8MA%3D%3D);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: antiquewhite;
+    opacity: 0.6;
+    padding: 20px;
+    
+}
+
+h2{
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.atagsnav a{
+    color: antiquewhite;
+    margin: 6px;
+}
+
+a{
+    text-decoration: none; /* besser getrennt, um alle a tags glogal anzusprechen! */
+}
+
