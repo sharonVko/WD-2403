@@ -1,0 +1,111 @@
+
+@font-face {
+    font-family: "monoton";
+    src: url("../fonts/Monoton-Regular.ttf");
+}
+
+@font-face {
+    font-family: "ubuntu";
+    src: url("../fonts/Ubuntu-Regular.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: "ubuntu";
+    background-color: #070707;
+}
+
+body{
+    height: 100vh;
+}
+
+:root{
+    --greytext:#9d9f9f;
+    --hovercolor:#f4f7f8;
+    --bronze: #AC8059;
+}
+/* div { color: #070707;
+color: #9d9f9f;text
+color: #f4f7f8;hover text
+color: #AC8059; shop all, kreise
+} */
+nav{
+    color: #9d9f9f;
+    border: 2px solid red;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+.nav-left{
+    border: 2px solid limegreen;
+    padding: 0 8px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.nav-right{
+    border: 2px solid violet;
+    /* padding: 24px 8px 0 8px; */
+    width: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+h2{
+    font-family: "monoton";
+    font-size: 4rem;
+    padding:12px 30px 0 0;
+    
+}
+
+.nav-right a{
+    padding: 40px 0 0 22px;
+
+    font-size: 14px;
+    text-decoration: none;
+}
+a{
+    padding-top: 22px;
+    font-size: 14px;
+    text-decoration: none;
+}
+h1{
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.nav-left, .nav-right, h2, a, h1{
+    color: var(--greytext);
+}
+.nav-left:hover, .nav-right:hover, h2:hover, a:hover{
+    color: var(--hovercolor);
+}
+
+.text{
+    width: 300px;
+    border: 2px solid turquoise;
+    margin: 18rem;
+    
+}
+p{
+    color: var(--bronze);
+    font-size: 20px;
+    padding-top: 10rem;
+}
+
+.img1{
+    position: relative;
+    border: 2px solid yellow;
+}
+img{
+    position: absolute;
+}
