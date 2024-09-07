@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "poppins-regular";
+    src: url("../fonts/Poppins-Regular.ttf");
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: "poppins-regular";
+}
+
+
+section{
+    height: 100vh;
+    background-image: url(./../img/mount_everest.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+    text-align: end;
+    position: relative;
+}
+
+div{
+   border: 2px solid red;
+   position: absolute; /* best practice: pos.relative in parent container, top&right werte bestimmen den platz */
+   top: 8rem;
+   right: 12rem;
+}
+
+h1{
+    color: azure;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+h2{
+    color: azure;
+    font-size: 2rem;
+}
+
