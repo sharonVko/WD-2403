@@ -100,17 +100,19 @@ h1{
 p{
     color: var(--bronze);
     font-size: 20px;
-    padding-top: 10rem;
+    /* padding-top: 10rem; */
 }
 
 .line{
     position: absolute;
     top: 10.5rem;
+    padding-top: 10rem;
 }
 
 .shop{
     position: absolute;
     right: 11rem;
+    padding-top: 10rem;
 }
 
 img{
@@ -129,4 +131,19 @@ img{
     position: absolute;
     top: 20rem;
     left: 85%;
+}
+
+.circle{
+    height: 50px;
+    width: 50px;
+  
+    border-radius: 50%;
+    border: 2px solid var(--bronze) ;
+    background: none
+}
+
+.arrow{
+     padding: 7px;
+     font-size: 3rem;
+     text-align: center;
 }
