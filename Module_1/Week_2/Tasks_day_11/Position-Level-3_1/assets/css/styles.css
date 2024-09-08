@@ -94,6 +94,7 @@ h1{
     width: 300px;
     border: 2px solid turquoise;
     margin: 18rem;
+    position: relative;
     
 }
 p{
@@ -102,10 +103,21 @@ p{
     padding-top: 10rem;
 }
 
-.img1{
-    position: relative;
-    border: 2px solid yellow;
-}
+
 img{
     position: absolute;
+    top: 20rem;
+    left: 45%;
+    
+}
+
+.img2{
+    position: absolute;
+    top: 20rem;
+    left: 65%;
+}
+.img3{
+    position: absolute;
+    top: 20rem;
+    left: 85%;
 }
