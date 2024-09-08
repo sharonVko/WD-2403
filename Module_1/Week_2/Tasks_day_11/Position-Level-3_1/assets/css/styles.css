@@ -54,7 +54,7 @@ nav{
 .nav-right{
     border: 2px solid violet;
     /* padding: 24px 8px 0 8px; */
-    width: 50%;
+    width: 60%;
     text-align: center;
     display: flex;
     justify-content: space-around;
@@ -103,6 +103,15 @@ p{
     padding-top: 10rem;
 }
 
+.line{
+    position: absolute;
+    top: 10.5rem;
+}
+
+.shop{
+    position: absolute;
+    right: 11rem;
+}
 
 img{
     position: absolute;
