@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    /* font-size: 2rem;
+    font-weight: 500; */
+    padding: 3rem 0 3rem 2rem;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+.colorboxes{
+    display: grid;
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 1rem 0 0 2rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.boxred{
+    background-color: red;
+    grid-column: 1/ 5;
+
+}
+
+.boxblue{
+    background-color: blue;
+    grid-column:  1/3;
+    grid-row: 2/ span 2;
+    
+}
+
+.boxgreen{
+    background-color: green;
+    grid-column: 3/5;
+}
+
+.boxpurple{
+    background-color: blueviolet;
+    /* grid-row: 3/5; */ 
+    /* rutscht automatisch in die letzte freie Lücke */
+}

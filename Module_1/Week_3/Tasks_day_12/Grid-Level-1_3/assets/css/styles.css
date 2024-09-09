@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    height: 100vh;
+
+    display: grid;
+    grid-template-columns: 25% 1fr 1fr 1fr 1fr;
+    grid-template-rows: 6% 30% 30% 30% 4%;
+    gap: 2px;
+    padding: 1rem 1rem ;
+
+}
+
+header{
+    background-color: blue;
+    color: white;
+    grid-column: 1/6;
+}
+
+main{
+    background-color: red;
+    color: white;
+    grid-column: 2/6;
+    grid-row: 2/5;
+    
+}
+
+aside{
+    background-color: green;
+    color: white;
+    grid-column: 1/2;
+    grid-row: 2/5;
+
+}
+footer{
+    background-color: purple;
+    color: white;
+    grid-column:1/6 ;
+    grid-row: 5/6 ;
+}
