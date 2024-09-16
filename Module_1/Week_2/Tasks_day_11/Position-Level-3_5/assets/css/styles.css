@@ -1,0 +1,146 @@
+@font-face {
+    font-family: "montserrat regular" ;
+    src: url("../fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: "montserrat xlight";
+    src: url("../fonts/Montserrat-ExtraLight.ttf");
+}
+
+@font-face {
+    font-family: "montserrat bold";
+    src: url("../fonts/Montserrat-Bold.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{width: 1440px;}
+
+header{
+    font-family: "montserrat regular";
+    background-color: aliceblue;
+
+    height: 100vh;
+    width: 100%;
+    margin-bottom: 20vh;
+    /* position: relative; */
+    /* overflow: auto; */
+
+}
+
+.hero{
+    /* background-color: aliceblue; */
+    background-image: url(../img/div.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    /* background-repeat: no-repeat;
+    height: 48vh;      almost worked, doesn't seem righht though
+    width: 75%; */
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    /* color:#FFFFFF; */
+    background-color:#00000080 ;
+    opacity: 0.4;
+    padding: 2%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+h1{
+    color: #FFFFFF;
+}
+
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+.nav-right{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin-right: 15%;
+
+}
+
+.location-head{
+    text-align: center;
+    font-family: "montserrat bold"; 
+    margin-bottom: 1vh;   
+}
+
+.location-head p{
+    font-size: 3rem;
+}
+
+.img-gallery{
+    width: 100%;
+    height: 50%;
+    margin: 0 3%;
+    gap: 5px;
+    margin-bottom: 16vh;
+}
+.img-row1{
+    display: flex;
+    margin-bottom: 2%;
+}
+
+.img-row2{
+    display: flex;
+}
+/* .img-size{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+} */
+.img-size{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.tour-dates div{
+   padding-left:  11%;
+}
+
+h4{
+    text-align: center;
+    font-family: "montserrat bold";
+    font-size: 1.2rem;
+    margin-bottom: 2%;
+}
+
+ul li{
+    font-family: "montserrat xlight";
+    line-height: 1.6rem;
+    list-style: none;
+}
+
+.sold-red{
+    color: red;
+    font-size: 1rem;
+}
+
+.avail-green{
+    color: green;
+    font-size: 1rem;
+}
+
+.tour-dates{
+    margin-bottom: 8vh;
+}
