@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Welcome to Bon Hotel</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" /> <!-- muss oberhalb von tailwind sitzen -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+             <!-- *********** HEADER WITH  HOTEL LOGO & NAV *************-->
+
+    <header class="p-9">
+        <img class="mx-auto " src="./assets/img/logo_header.png" alt="Brand logo">
+        <nav class="flex justify-around items-center py-8 text-lg text-amber-700">
+            <a href="#">Our Hotel</a>
+            <a href="#">Rooms & Rates</a>
+            <a href="#">Facilities</a>
+            <a href="#">Contact us</a>
+            <img src="" alt="magnifier glass icon">
+        </nav>
+    </header>
+
+    <main>
+             <!-- *************HERO SECTION WITH HOTEL IMAGE*************** -->
+
+        <div 
+  class="hero min-h-96 py-52" 
+  style="background-image: url(./assets/img/hero_image.png);"> <!-- hero min-h-screen  -->
+ <!--  <div class="hero-overlay bg-opacity-60"></div> -->
+  <div class="hero-content text-neutral-content text-center">
+    <div class="max-w-xl">
+      <h1 class="mb-5 text-5xl [font-family:Ubuntu-Regular]">WELCOME TO BON HOTEL</h1>
+      <p class="mb-5">
+        Good people. Good thinking. Good feeling.
+      </p>
+      <button class="btn border-amber-500 bg-amber-500 text-white px-20">EXPLORE</button> <!-- btn-primary -->
+    </div>
+  </div>
+</div>
+
+        <!-- **************+ FACILITY ICON SECTION ********** -->
+
+<h3 class="text-center text-amber-700 text-3xl mt-6">Facilities</h3>
+<section class="flex justify-around  items-center my-5 text-amber-700" >
+    <div class="flex flex-col items-center">
+        <img src="./assets/img/icon_kitchen.png" alt="Kitchen icon">  
+        <a href="#">Kitchen</a>
+    </div>
+    <div class="flex flex-col items-center">
+        <img src="./assets/img/icon_pool.png" alt="Swimmer icon">
+        <a href="#">Pool</a>
+    </div>
+    <div class="flex flex-col items-center">
+        <img src="./assets/img/icon_wifi.png" alt="Wifi icon">
+        <a href="#">Wifi</a>
+    </div>
+    <div class="flex flex-col items-center">
+        <img src="./assets/img/icon_fitness.png" alt="Deadlift icon">
+        <a href="#">Gym</a>
+    </div>
+    <div class="flex flex-col items-center">
+        <img src="./assets/img/icon_taxi.png" alt="Cab icon"> 
+        <a href="#">Taxi</a>
+    </div>
+</section>
+
+        <!-- ************* ROOMS & RATES CARD SECTION*************** -->
+
+<h3 class="text-center text-amber-700 text-3xl mt-6">Rooms & Rates</h3>
+<section class="grid grid-rows-2 grid-cols-2 gap-y-8 p-12">    <!-- grid? -->     
+                <!-- ******* CARD 1****** -->
+    <div class="card bg-base-100 image-full w-96 shadow-xl">
+        <figure>
+          <img
+            src="./assets/img/standard_twin_room.png"
+            alt="Standard Twin Room Image" />
+        </figure>
+        <div class="card-body pt-48">
+          <h2 class="card-title justify-center mx-8 text-2xl">Standard Twin Room</h2>
+          <div class="card-actions justify-center">
+            <button class="btn border-amber-500 bg-amber-500 text-white px-6">Check Rates</button>
+          </div>
+        </div>
+      </div>
+
+              <!-- ******* CARD 2****** -->
+    <div class="card bg-base-100 image-full w-96 shadow-xl">
+        <figure>
+          <img
+            src="./assets/img/standard_room.png"
+            alt="Standard Room Image" />
+        </figure>
+        <div class="card-body pt-48">
+          <h2 class="card-title justify-center mx-8 text-2xl">Standard Room</h2>
+          <div class="card-actions justify-center">
+            <button class="btn border-amber-500 bg-amber-500 text-white px-6">Check Rates</button>
+          </div>
+        </div>
+      </div>
+
+               <!-- ******* CARD 3****** -->
+    <div class="card bg-base-100 image-full w-96 shadow-xl">
+        <figure>
+          <img
+            src="./assets/img/standard_view_room.png"
+            alt="Standard View Room Image" />
+        </figure>
+        <div class="card-body pt-48">
+          <h2 class="card-title justify-center mx-8 text-2xl">Standard View Room</h2>
+          <div class="card-actions justify-center">
+            <button class="btn border-amber-500 bg-amber-500 text-white px-6">Check Rates</button>
+          </div>
+        </div>
+      </div>
+
+               <!-- ******* CARD 4****** -->
+    <div class="card bg-base-100 image-full w-96 shadow-xl">
+        <figure>
+          <img
+            src="./assets/img/deluxe_room.png"
+            alt="Deluxe Room Image " />
+        </figure>
+        <div class="card-body pt-48">
+          <h2 class="card-title justify-center mx-8 text-2xl">Standard Room</h2>
+          <div class="card-actions justify-center">
+            <button class="btn border-amber-500 bg-amber-500 text-white px-6">Check Rates</button>
+          </div>
+        </div>
+      </div>
+</section>
+
+            <!-- *********** BOOK A ROOM ************* -->
+
+<h3 class="text-center text-amber-700 text-3xl my-6">Get a room already!</h3>
+<div class="text-center">
+<button class="btn border-amber-500 bg-amber-500 text-white px-20">Book Now</button>
+</div>
+    </main>
+    <footer></footer>
+</body>
+</html>

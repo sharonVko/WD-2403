@@ -19,7 +19,7 @@
     box-sizing: border-box;
 }
 
-body{width: 1440px;}
+/* body{width: 1440px;} */
 
 header{
     font-family: "montserrat regular";
@@ -27,7 +27,7 @@ header{
 
     height: 100vh;
     width: 100%;
-    margin-bottom: 20vh;
+   /*  margin-bottom: 20vh; */
     /* position: relative; */
     /* overflow: auto; */
 
@@ -41,8 +41,10 @@ header{
     background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
+    /* height: 100%;
+    width: 100vw; */
     /* background-repeat: no-repeat;
-    height: 48vh;      almost worked, doesn't seem righht though
+    height: 48vh;      almost worked, doesn't seem right though
     width: 75%; */
 }
 
@@ -81,6 +83,7 @@ a:hover{
     text-align: center;
     font-family: "montserrat bold"; 
     margin-bottom: 1vh;   
+    margin-top: 30vh;
 }
 
 .location-head p{
