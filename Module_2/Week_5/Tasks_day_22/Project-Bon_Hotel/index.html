@@ -13,12 +13,12 @@
 
     <header class="p-9">
         <img class="mx-auto " src="./assets/img/logo_header.png" alt="Brand logo">
-        <nav class="flex justify-around items-center py-8 text-lg text-amber-700">
+        <nav class="flex justify-around items-center py-8 text-lg text-yellow-800">
             <a href="#">Our Hotel</a>
             <a href="#">Rooms & Rates</a>
             <a href="#">Facilities</a>
             <a href="#">Contact us</a>
-            <img src="" alt="magnifier glass icon">
+            <img src="./assets/img/Group (1).png" alt="magnifier glass icon">
         </nav>
     </header>
 
@@ -35,15 +35,15 @@
       <p class="mb-5">
         Good people. Good thinking. Good feeling.
       </p>
-      <button class="btn border-amber-500 bg-amber-500 text-white px-20">EXPLORE</button> <!-- btn-primary -->
+      <button class="btn border-orange-300 bg-orange-300 text-white px-20">EXPLORE</button> 
     </div>
   </div>
 </div>
 
         <!-- **************+ FACILITY ICON SECTION ********** -->
 
-<h3 class="text-center text-amber-700 text-3xl mt-6">Facilities</h3>
-<section class="flex justify-around  items-center my-5 text-amber-700" >
+<h3 class="text-center text-yellow-800 text-3xl mt-6">Facilities</h3> 
+<section class="flex justify-around  items-center my-5 text-yellow-800 mb-24" >
     <div class="flex flex-col items-center">
         <img src="./assets/img/icon_kitchen.png" alt="Kitchen icon">  
         <a href="#">Kitchen</a>
@@ -68,9 +68,10 @@
 
         <!-- ************* ROOMS & RATES CARD SECTION*************** -->
 
-<h3 class="text-center text-amber-700 text-3xl mt-6">Rooms & Rates</h3>
-<section class="grid grid-rows-2 grid-cols-2 gap-y-8 p-12">    <!-- grid? -->     
-                <!-- ******* CARD 1****** -->
+<h3 class="text-center text-yellow-800 text-3xl mt-6">Rooms & Rates</h3>
+<section class="grid grid-rows-2 grid-cols-2 gap-y-8 ml-28 py-12 px-12">    <!-- change to flex? -->     
+                
+                <!-- ******* CARD 1****** -->                 <!-- cards too dark, need a change -->
     <div class="card bg-base-100 image-full w-96 shadow-xl">
         <figure>
           <img
@@ -80,7 +81,7 @@
         <div class="card-body pt-48">
           <h2 class="card-title justify-center mx-8 text-2xl">Standard Twin Room</h2>
           <div class="card-actions justify-center">
-            <button class="btn border-amber-500 bg-amber-500 text-white px-6">Check Rates</button>
+            <button class="btn border-orange-300 bg-orange-300 text-white px-6">Check Rates</button>
           </div>
         </div>
       </div>
@@ -95,7 +96,7 @@
         <div class="card-body pt-48">
           <h2 class="card-title justify-center mx-8 text-2xl">Standard Room</h2>
           <div class="card-actions justify-center">
-            <button class="btn border-amber-500 bg-amber-500 text-white px-6">Check Rates</button>
+            <button class="btn border-orange-300 bg-orange-300 text-white px-6">Check Rates</button>
           </div>
         </div>
       </div>
@@ -110,7 +111,7 @@
         <div class="card-body pt-48">
           <h2 class="card-title justify-center mx-8 text-2xl">Standard View Room</h2>
           <div class="card-actions justify-center">
-            <button class="btn border-amber-500 bg-amber-500 text-white px-6">Check Rates</button>
+            <button class="btn border-orange-300 bg-orange-300 text-white px-6">Check Rates</button>
           </div>
         </div>
       </div>
@@ -123,9 +124,9 @@
             alt="Deluxe Room Image " />
         </figure>
         <div class="card-body pt-48">
-          <h2 class="card-title justify-center mx-8 text-2xl">Standard Room</h2>
+          <h2 class="card-title justify-center mx-8 text-2xl">Deluxe Room</h2>
           <div class="card-actions justify-center">
-            <button class="btn border-amber-500 bg-amber-500 text-white px-6">Check Rates</button>
+            <button class="btn border-orange-300 bg-orange-300 text-white px-6">Check Rates</button>
           </div>
         </div>
       </div>
@@ -133,11 +134,35 @@
 
             <!-- *********** BOOK A ROOM ************* -->
 
-<h3 class="text-center text-amber-700 text-3xl my-6">Get a room already!</h3>
-<div class="text-center">
-<button class="btn border-amber-500 bg-amber-500 text-white px-20">Book Now</button>
+<h3 class="text-center text-yellow-800 text-3xl my-6">Get a room already!</h3>
+<div class="text-center mb-16">
+<button class="btn border-orange-300 bg-orange-300 text-white px-20">Book Now</button>
 </div>
     </main>
-    <footer></footer>
+    <footer class="footer  bg-base-200 text-base-content bg-black text-white p-10">
+      <aside>
+        <img class="bg-none size-20 mb-8" src="./assets/img/logo_footer.png" alt="Brand Logo">
+        <p class="text-justify">
+          Bon Hotels Head Office 
+          <br />
+          <span class="font-thin"> +27 434 344 432</span>
+          <br />
+          <span class="font-thin">info@bonhotels.com</span>
+         </p>
+      </aside>
+      <nav class="leading-loose">
+        
+        <a class="link link-hover">Our Hotel</a>
+        <a class="link link-hover">Our Conferencing</a>
+        <a class="link link-hover">Our Company</a>
+        <a class="link link-hover">Hotel Design</a>
+        <a class="link link-hover">Careers</a>
+      </nav>
+      <div>
+        <h6 class=" text-white text-lg">Subscribe for Offers</h6>
+        <input type="text" class=" py-3 px-14 border-white rounded-lg" placeholder="Email Address" />
+        <button class="btn border-orange-300 bg-orange-300 text-white px-20">Subscribe now</button>
+      </div>
+    </footer>
 </body>
 </html>
