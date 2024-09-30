@@ -16,3 +16,5 @@ console.log(whereIsSam.toLowerCase().substring(0, 4)+ whereIsSam.toUpperCase().s
 
 console.log(whereIsSam.replace("Sam is going to school", "Sam Is Going To School") );
 /* seems to be the shortest solution ? not sure what's expected here*/
+
+
