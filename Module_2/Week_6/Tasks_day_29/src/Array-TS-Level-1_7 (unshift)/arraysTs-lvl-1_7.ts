@@ -5,7 +5,7 @@ console.log("hola");
 const bucketList: string [] = ["Mexico", "Thailand", "Island","Mauritius","Kuba", "Japan"];
 console.log(bucketList);
 
-const luckyNumbers :number [] = [ 9,13,21,29];
+const luckyNumbers: number [] = [ 9,13,21,29];
 console.log(luckyNumbers);
 
 const favoritePeople: string [] = ["Lamia", "Moritz", "und alle anderen","natürlich inklusive Trainer"];

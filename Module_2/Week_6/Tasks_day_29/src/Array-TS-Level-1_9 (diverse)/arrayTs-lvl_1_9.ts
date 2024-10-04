@@ -1,6 +1,6 @@
 console.log("salut");
 
-const numArray = [23,54,75];
+const numArray:number [] = [23,54,75];
 console.log(numArray); /* console returns: (3) [23, 54, 75] */
 
 numArray.push(11,32,42,5,71);
