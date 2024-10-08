@@ -25,9 +25,19 @@ const artworks: string[] = [    "Die Sternennacht - Vincent van Gogh",
 
 
 
-/* function searchArtwork(artworkName: string){
+function searchArtwork=(artworkName: string) => {
     
-    const findArt = artworks.
-} */
+    const findArt = artworks.find((paramFreiWählbar:string) => paramFreiWählbar.includes(artworkName));/* da wir einen neuen string entwerfen sollen, in einer neuen variable speichern  */
+    const artworkDateSearchResult = artworkDates.find((paramFreiWählbar:string) => paramFreiWählbar.includes(artworkName));
+
+    console.log(findArt);
+    console.log(artworkDateSearchResult);
+      /* schaut euch nochmal  truthy und falsy bei if an! */  
+      if (findArt && artworkDateSearchResult){
+        /* hier müssen wir wenn unsere werte gefunden worden sind, jetzt einen neuen string basteln aus den drings "findArt" und "artworkSearchResult" */
+        const artistResultSplit = findArt.split(" - ");
+        const artworkDateSplit = artworkDateSearchResult.split(" - ")
+      }
+}
 
 /* will try again soon */
