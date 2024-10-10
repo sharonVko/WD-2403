@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <div id="app">
+      <a href="./src/functions/arrow_callback.html">arrow/callback functions examples</a>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
+
+<!-- Arrow Functions -->
+<!-- // Schritt 1: Definiere eine Arrow Function, die zwei Zahlen addiert
+const add = (a: number, b: number): number => {
+    return a + b;
+};
+
+// Schritt 2: Verwende die Funktion und gib das Ergebnis aus
+console.log(add(5, 3)); // Ausgabe: 8
+Erklärung: Diese Funktion nimmt zwei Parameter a und b und gibt ihre Summe zurück.
+ -->
+
+ <!-- // Schritt 1: Definiere eine Arrow Function, die eine Begrüßung ausgibt
+const greet = (name: string): string => `Hallo, ${name}!`;
+
+// Schritt 2: Verwende die Funktion und gib das Ergebnis aus
+console.log(greet('Alice')); // Ausgabe: Hallo, Alice!
+Erklärung: Diese Funktion nimmt einen Parameter name und gibt eine Begrüßungsnachricht zurück.
+ -->
+
+ <!-- Callback Functions
+  Callback Functions sind Funktionen, die als Argumente an andere Funktionen übergeben werden. Sie werden oft verwendet, um asynchrone Operationen zu handhaben.
+
+Einfacher Callback -->
+<!-- // Schritt 1: Definiere eine Funktion, die einen Callback akzeptiert
+function processUserInput(callback: (input: string) => void) {
+    const userInput = 'Benutzer Eingabe';
+    callback(userInput);
+}
+
+// Schritt 2: Definiere den Callback und übergebe ihn an die Funktion
+processUserInput((input) => {
+    console.log(input); // Ausgabe: Benutzer Eingabe
+});
+Erklärung: processUserInput nimmt eine Funktion als Parameter (callback) und ruft diese mit userInput auf.
+ -->
+
+ 
