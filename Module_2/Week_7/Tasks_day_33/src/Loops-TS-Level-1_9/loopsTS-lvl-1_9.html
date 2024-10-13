@@ -8,10 +8,14 @@
 <body>
     <h1>Wortfilter</h1>
     <form>
-        <input type="text" name="addword" id="addWord" placeholder="neues Wort hinzufügen">
-        <input type="button" value="Hinzufügen" id="addBtn">
-        <input type="number" name="wordlength" id="wordLength" placeholder="Wortlänge">
-        <input type="button" value="Filtern" id="filterBtn">
+        <div>
+            <input type="text" name="addword" id="addWord" placeholder="neues Wort hinzufügen">
+            <input type="button" value="Hinzufügen" id="addBtn">
+        </div>
+        <div>
+            <input type="number" name="wordlength" id="wordLength" placeholder="Wortlänge">
+            <input type="button" value="Filtern" id="filterBtn">
+        </div>
         <div id="output"></div>
     </form>
     <script type="module" src="./loopsTS-lvl-1_9.ts"></script>

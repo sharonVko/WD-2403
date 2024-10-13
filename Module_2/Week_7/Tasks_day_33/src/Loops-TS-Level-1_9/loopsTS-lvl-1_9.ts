@@ -18,10 +18,26 @@ console.log(wordLength);
 console.log(filterBtn);
 console.log(output);
 
+// addBtn?.addEventListener('click', () => {
+//     const addedValue = addWord?.value;
+//     console.log(addedValue);
+// });
 addBtn?.addEventListener('click', () => {
-    const addedValue = addWord?.value;
-    console.log(addedValue);
-});
+    words.push(addWord?.value); /* pushing a new word from the first inputfield to the existing array */
+   /*  addWord.value = ""; */ // deletes the last input from field & user can add a new word
+})
+
+
+filterBtn?.addEventListener('click', () => {  /* adding eventlistener to btn */
+    output.innerHTML = "";  /* removing former output results */
+    for (let index:number = 0; index < words.length; index++){ /* loop running through words array */
+        if(Number(wordLength?.value) === words[index].length){ /* checking if the new word is matching with other input fields value */
+            output.innerHTML += `<p>${words[index]}</p>`;/* if so, add the word to the output element in html */
+        }
+    }
+})
+
+
 
 
 /*to do: get both values and compare */
