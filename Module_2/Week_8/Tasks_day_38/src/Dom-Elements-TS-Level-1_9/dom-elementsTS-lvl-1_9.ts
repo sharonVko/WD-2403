@@ -25,7 +25,7 @@ console.log(removeBtn);
 
 removeBtn?.addEventListener('click', (event) => {
     event.preventDefault() // to stop default setting of button (within the form) which keeps sending the form over and over again
-    console.log("test");
+   /*  console.log("test"); */
 
     const selectColor = farbeAuswahlen.selectedIndex; /* getting index of selected option */
     
