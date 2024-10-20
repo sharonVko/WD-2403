@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+button{
+    display: block;
+    margin: 45vh auto;
+    background-color: lightblue;
+    border-style: none;
+    padding: 4px;
+}
