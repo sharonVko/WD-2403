@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+text-align: center;
+margin: 14vh;
+}
+
+h1{
+    margin-bottom: 8%;
+}
+
+.circle{
+    height: 50px;
+    width: 50px;
+    background-color: teal;
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+#circleOne{
+    /* background-color: green; */
+   background: linear-gradient(40deg,green 50%, purple 50%);
+    margin: 3%;
+}
+
+#circleTwo{
+    background: linear-gradient(40deg,rgb(93,71,139) 50%, rgb(201, 201, 114) 50%);
+    margin: 3%;
+}
+
+#circleThree{
+    background: linear-gradient(40deg,black 50%, rgb(227, 149, 4) 50%);
+    margin: 3%;
+}
+
+#circleFour{
+    background: linear-gradient(40deg,navy 50%, skyblue 50%);
+    margin: 3%;
+}
