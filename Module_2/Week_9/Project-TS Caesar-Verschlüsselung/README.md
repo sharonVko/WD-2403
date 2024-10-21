@@ -1,4 +1,4 @@
-# Caesar Verschlüsselung
+# Caesar Verschlüsselung a.k.a Caesar Cypher
 
 ## Description
 
