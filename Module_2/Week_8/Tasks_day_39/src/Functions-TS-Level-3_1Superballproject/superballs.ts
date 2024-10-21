@@ -1,5 +1,10 @@
 console.log("superballs");
 
+//Erstelle vier SuperBalls: Durch das Anklicken eines SuperBalls ändert sich die Hintergrundfarbe des <body> und die Textfarbe der Überschrift <h1>.
+// Nutze CSS um die Elemente zu stylen. Entweder nutzt du linear-gradient oder du sprichst jeden Halbkreis selber an.
+// In deinem TS-Code definierst du dann was beim Klick auf den jeweiligen SuperBall passieren soll.
+
+
 // ball 1 onclick bg green, text purple
 //ball 2 onclick bg lavender, text yellow 
 // etc
