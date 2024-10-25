@@ -37,10 +37,10 @@ console.log(`Flavor ${this._name} is popular and costs ${this._price} €.`);
 // method 3
 getLengthOfDescription(){
     const length = this._description?.length
-    if(this._description){
+    if (this._description){
         console.log(length);
         
-    }else{
+    } else {
         console.log("0");
         
     }
