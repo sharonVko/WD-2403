@@ -2,3 +2,9 @@
 //- **Bitte halte dich an den Typescript-Standard.**
 
 const count = document.querySelector('#count') as HTMLDivElement;
+
+let counter = 10;
+
+const divDisappear = () => {
+
+}
