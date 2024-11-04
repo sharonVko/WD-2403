@@ -1,6 +1,7 @@
 import Manager from './classes/Manager';
 import Subordinate from './classes/Subordinate';
-console.log("test");
+import Trainee from './classes/Trainee';
+
 
 // 5- Erstelle drei Instanzen der Klasse Subordinate
 //- Erstelle eine Instanz der Klasse Manager
@@ -50,3 +51,14 @@ _position
 Object */
 
 
+// level 2_2
+//2. - Lege in der app.ts zwei Instanzen der Klasse Trainee an
+//- Füge sie über addSubordinate zum Manager hinzu
+
+const cafeteriaTrainee = new Trainee ("Royce", 39);
+
+const cashierTrainee = new Trainee ("Josie", 27);
+
+cafeteriaManager.addSubordinate(cafeteriaTrainee);
+
+cafeteriaManager.addSubordinate(cashierTrainee);
