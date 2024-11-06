@@ -10,15 +10,15 @@ const greetUser = ():void => {
     }else {
         console.log(`Welcome ${username}`);
     }    
-    }catch (err) {
-        console.log("Hello stranger!");
+    }catch (err) { // (err) placeholder for throw new error text
+        console.error("Hello stranger!", err);
         
     }
 };
 
 greetUser()
 
-// not clear why error in line 8 needs a longer text, if it's not shown. internal "error naming" ?
+
 
 
 
