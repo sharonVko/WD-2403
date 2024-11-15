@@ -1,0 +1,43 @@
+Lernziel: Postman kennenlernen und nutzen anhand der Star Wars API
+Die StarWars API und deren Dokumentation ist unter https://swapi.dev zu finden.
+
+
+- Lege eine Datei für die Antworten in deinem Repository an, z. B. star-wars.txt
+und schreibe dort die Antworten auf die folgenden Fragen rein
+(in dieser Aufgabe muss du keinen Code schreiben, nur Postman nutzen!)
+- Öffne Postman
+
+Aufgabe 1:
+- Leg einen neuen Request an.
+- Nenne ihn “Star Wars Planeten”.
+- Die URL lautet https://swapi.dev/api/planets
+- Sende den Request ab und schau dir die Antwort an
+
+* Wie lange hat der Aufruf gedauert? : 578 ms
+* Wieviele Planeten bekommst du als Antwort? : 60
+* Wie lautet der Name des vorletzten Planeten? : Coruscant
+* Wie ist das Klima (climate) des Planeten Hoth? : frozen
+
+Versuche selbst, die 3. Seite (page=3) aufzurufen. :   https://swapi.dev/api/people/?page=3
+* Wie lautet der Name des zweiten Planeten auf dieser Seite? :  Corellia
+
+Aufgabe 2:
+- Leg einen neuen Request an.
+  Nenne ihn “Star Wars People”.
+* Wer ist die erste Person in der Antwort? : "name": "Luke Skywalker"
+* Rufe sein Raumschiff ab - wie heißt es? :  "name": "X-wing", "name": "Imperial shuttle"
+* Wie lautet die Haarfarbe und die Augenfarbe der letzten Person aus der Antwort? :(Obi-wan Kenobi) "hair_color": "auburn, white", "eye_color": "blue-gray",
+
+- Rufe die Seite 3 ab.
+* Wer steht dort ganz oben? :  "name": "Boba Fett",
+* In welchen Filmen kommt die Person vor? : "films": [
+            
+                "https://swapi.dev/api/films/2/", "title": "The Empire Strikes Back",
+                "https://swapi.dev/api/films/3/", "title": "Return of the Jedi",
+                "https://swapi.dev/api/films/5/", "title": "Attack of the Clones",
+               
+            ]
+Suche nach Prinzessin Leia.
+Wie man einen Suchtext im Request mitgeben kann, findest du in der Dokumentation   
+* Wie groß ist sie? :   "height": "150"     
+* Was ist ihr Heimatplanet?  : "name": "Alderaan",
