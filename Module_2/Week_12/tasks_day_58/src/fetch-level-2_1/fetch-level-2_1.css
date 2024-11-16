@@ -1,0 +1,19 @@
+/* - Gib dem img-Tag in deinem CSS eine Breite von 50%, damit das Ganze nicht zu unübersichtlich wird. */
+
+img{
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+#img-section{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px;
+    justify-items: center;
+}
+
+figcaption{
+    font-weight: 600;
+    color: rgb(33, 32, 32);
+}
