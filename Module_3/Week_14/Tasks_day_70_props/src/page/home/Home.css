@@ -1,0 +1,6 @@
+.product-card__wrapper{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    margin: 2vw;
+}
