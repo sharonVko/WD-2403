@@ -1,0 +1,35 @@
+.card-style{
+    
+        background-color: rgb(37, 37, 65);
+        padding: 12px;
+        border-radius: 10px;
+        max-width: 24vw;
+        max-height: 60vh ;
+        text-align: center;
+    
+}
+
+.card-style .main-card__info{
+    background-color: rgb(30, 29, 29);
+    border-radius: 4px;
+    padding: 16px;
+}
+
+.card-style .main-card__info h3{
+    font-size: 3.8rem;
+    margin: 0;
+}
+
+.card-style .main-card__info h4{
+    font-size: 1.8rem;
+
+}
+.card-style .main-card__info .p-lifespan{
+    font-size: 12px;
+}
+
+/* .card-style .lower-card__funfacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+} */

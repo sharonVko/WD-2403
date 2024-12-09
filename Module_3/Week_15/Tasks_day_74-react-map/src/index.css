@@ -1,0 +1,25 @@
+/* global styles */
+
+body{
+  background-color: rgb(30, 29, 29);
+}
+
+h1,h3,h4,p, ul li{
+  color: beige;
+  font-family: Arial, Helvetica, sans-serif;
+  /* margin: 4px; */
+}
+
+ 
+
+ul{
+  padding-inline-start: 10px; /* moving list to the left */
+}
+ul li{
+  font-size: 12px;
+  line-height: 18px;
+  text-align: start;
+  padding: 2px;
+  margin: 4px;
+  
+}
