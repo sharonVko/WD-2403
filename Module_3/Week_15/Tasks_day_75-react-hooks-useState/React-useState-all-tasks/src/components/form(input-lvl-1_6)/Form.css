@@ -1,0 +1,11 @@
+.form{
+    background-color: rgba(128, 128, 128, 0.812);
+    padding: 10px;
+    text-align: start;
+    max-width: 80vw;
+    margin-bottom: 8%;
+}
+
+.form input, .form p{
+    margin: 6px 4px;
+}

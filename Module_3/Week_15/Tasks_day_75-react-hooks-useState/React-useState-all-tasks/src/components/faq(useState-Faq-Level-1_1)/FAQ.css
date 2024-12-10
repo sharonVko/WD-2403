@@ -1,0 +1,29 @@
+.faq-wrapper {
+   color: white;
+   background-color: rgb(49, 48, 48);
+   padding: 10px 6px;
+   text-align: start;
+}
+
+.question-wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 3%;
+}
+.question-wrapper p{
+    margin-right: 50%;
+    padding-left: 10px;
+
+}
+.q-btn{
+    padding: 0 8px;
+    height: 16px;
+}
+
+.answer-wrapper{
+    padding-left: 10px;
+}
+.answer-display{
+display: none;
+
+}

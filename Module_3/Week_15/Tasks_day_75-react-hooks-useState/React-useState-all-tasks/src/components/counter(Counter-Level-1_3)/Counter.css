@@ -1,0 +1,11 @@
+.counter-wrapper{
+    border: 2px solid grey;
+    padding: 3%;
+}
+
+.counter-wrapper div{
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    padding: 4%;
+}

@@ -1,0 +1,6 @@
+.display-week__wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2%;
+}
