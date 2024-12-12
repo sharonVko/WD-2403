@@ -1,9 +1,10 @@
 //* React-useState-Input-Level-1_6
 //*React-Counter-Level-1_3
 //* React-useState-Faq-Level-1_1
+//* React-useState-Day-Night-Change-Level-2_2
 
 import Counter from "../../components/counter(Counter-Level-1_3)/Counter";
-import DayNightSection from "../../components/DayNightSection(DN-Change-Level-2_2/DayNightSection";
+import DayNightSection from "../../components/dayNightSection(DN-Change-Level-2_2/DayNightSection";
 import FAQ from "../../components/faq(useState-Faq-Level-1_1)/FAQ";
 import Form from "../../components/form(input-lvl-1_6)/Form";
 

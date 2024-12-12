@@ -1,0 +1,20 @@
+.transaction-container{
+    background-color: #add2ff;
+    border-radius: 10px;
+    border: 2px solid aquamarine;
+    padding: 8%;
+    width:  32vw;
+    height: 26vh;
+}
+
+.transaction-container p{
+    color: blue;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.button-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 6px;
+}
