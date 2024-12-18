@@ -1,0 +1,31 @@
+footer{
+    background-image: url(../../../public/IMGs/Footer.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    padding: 50px 10px;
+    height: 36vh;
+}
+
+
+footer hr{
+    border: 1px solid #C4C4C4;
+    margin-bottom: 2vh;
+    width: 60%;
+    margin-top:2vh ;
+}
+footer p{
+    margin: 2% 0;
+    font-weight: lighter;
+    color: #8D8D8D;
+}
+
+footer div{
+    margin: 0 auto;
+}
+.contacts{
+    margin:  0px 0px 4vh 8vw;
+}
+.copyright{
+    text-align: center;
+}

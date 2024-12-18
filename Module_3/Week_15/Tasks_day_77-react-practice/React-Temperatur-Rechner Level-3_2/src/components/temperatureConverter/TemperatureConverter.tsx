@@ -6,7 +6,7 @@ const TemperatureConverter:React.FC = () => {
 
     const [celcius, setCelsius] = useState<number>(0)
     const [fahrenheit, setFahrenheit] = useState<number>(0)
-    const [boilingTemperature, setBoilingTemperature]= useState<boolean>(false)
+    const [boilingTemperature, setBoilingTemperature]= useState<boolean>(false) //- condition for temperature limit
 
    /*  const getCelcius = (event:React.ChangeEvent<HTMLInputElement>) => {
         setCelsius(event.target.valueAsNumber || 0)
@@ -16,7 +16,7 @@ const TemperatureConverter:React.FC = () => {
     const convertCelsius = (event:React.ChangeEvent<HTMLInputElement>) => {
         const valueC = event.target.valueAsNumber;
         setCelsius(valueC);
-        setFahrenheit((valueC * 9/5) + 32);
+        setFahrenheit((valueC * 9/5) + 32); //- formula to convert from celcius to fahrenheit
         setBoilingTemperature(valueC >= 100);
     }
 
@@ -45,7 +45,7 @@ const TemperatureConverter:React.FC = () => {
                 <legend>Schreibe Temperatur in Fahrenheit</legend>
                 <input type="number" onChange={convertFahrenheit} value={fahrenheit} />
             </fieldset>
-            <p className={`${boilingTemperature ? "hot-enough" : ""}`}>{checkBoilingTemperature()}</p>
+            <p className={`${boilingTemperature ? "hot-enough" : ""}`}>  {checkBoilingTemperature()}</p>  //- if set boiling temp reached, css class will change p-tag color
         </section>
      );
 }

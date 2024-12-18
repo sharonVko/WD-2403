@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+  color: black;
+}
+
+img {
+  max-width: 100%;
+}
+.active {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* style for every single product page(jenson,deon,krisha) */
+.product-single__page{
+  margin: 6vh 4vw;
+  display: flex;
+
+}
+.product-single__page div{
+  width: 60%;
+  text-align: center;
+  padding: 12% 12%;
+  margin-left: 6vw;
+}
+
+.product-single__page div h5{
+  text-wrap: wrap;
+  font-size: 1.2rem;
+  font-weight: 200;
+ 
+}
