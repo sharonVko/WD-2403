@@ -1,0 +1,12 @@
+.card-style{
+    border: 2px solid grey;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    color: antiquewhite;
+    background-color: rgb(58, 56, 56);
+}
+
+.card-style:hover { 
+    background-color: #635746;
+}
