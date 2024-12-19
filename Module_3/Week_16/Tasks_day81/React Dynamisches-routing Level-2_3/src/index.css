@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin: 4vh;
+  
+}
+.single-preview{
+  padding: 4% 2%;
+  border: 2px solid grey;
+  background-color: lightgrey;
+}
+
+.car-details{
+  border: 2px solid rgb(220, 166, 65);
+  width: 50vh;
+  margin: 20vh auto;
+  padding: 2%;
+  background-color: rgb(151, 185, 173);
+}
+
+.car-details h3{
+  font-size: 1.8rem;
+  padding: 2%;
+}
+.car-details h4, .car-details p{
+  padding: 4px;
+}
+
+.car-info {
+  padding: 12px;
+  border: 2px solid black;
+  background-color: rgb(227, 189, 119);
+  border-radius: 6px;
+}
