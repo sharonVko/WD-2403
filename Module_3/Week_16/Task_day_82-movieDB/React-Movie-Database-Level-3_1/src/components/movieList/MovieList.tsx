@@ -18,9 +18,16 @@ const MovieList = () => {
         setFilm(movies)
     }, []);
 
-    //sort by data asc
-    //sort by data desc
-
+    //sort by date asc
+    const sortByDataAsc = () => {
+        const sortedMovies = [...film].sort((a,b) => parseInt(a.year)- parseInt(b.year));
+        setFilm(sortedMovies)
+    }
+    //sort by date desc
+    const sortByDataDesc = () => {
+        const sortedMovies = [...film].sort((a,b) => parseInt(b.year)- parseInt(a.year));
+        setFilm(sortedMovies)
+    }
     
     //sort by best rate
     const sortByBestRate = () => {
@@ -42,7 +49,7 @@ const MovieList = () => {
     return ( 
         <>
             <h2>Check out our movies</h2>
-            <Searchbar sortByTitleAsc={sortByTitleAsc} sortByTitleDesc={sortByTitleDesc} sortByBestRate={sortByBestRate}/>
+            <Searchbar sortByTitleAsc={sortByTitleAsc} sortByTitleDesc={sortByTitleDesc} sortByBestRate={sortByBestRate} sortByDataAsc={sortByDataAsc} sortByDataDesc ={sortByDataDesc}/>
             <section className="movie-list">
             {film.map((movie, index) => ( //bevor useState für btns -movies.map zum abrufen genutzt
                 <MovieCard key={index} movie={movie}/>

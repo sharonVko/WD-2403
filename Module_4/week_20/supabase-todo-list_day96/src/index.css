@@ -1,0 +1,71 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: #202ae8;
+  padding: 8% 0;
+}
+
+button {
+  border-radius: 8px;
+  border: 2px solid #202ae8;
+  color: #202ae8;
+  background-color: lightgoldenrodyellow;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  background-color: #e6d754;
+}
+
+.list-container{
+  text-align: center;
+  margin: 0 auto;
+  padding: 1vh 4vw;
+  background-image: linear-gradient(180deg, #d9d99d 48.61%, #8388e6 48.61%, #8388e6 50%, #d9d99d 50%, #d9d99d 98.61%, #8388e6 98.61%, #8388e6 100%);
+background-size: 144.00px 144.00px;
+}
+
+.task-input-container{
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+}
+.task-input-container input{
+  padding: 6px 36px 6px 20px;
+  border: 1px solid #202ae8;
+  border-radius: 3px;
+}
+
+.my-tasks{
+  display: flex;
+  gap: 12vw;
+  justify-content: center;
+  /* background-color: lightgoldenrodyellow; */
+}
+
+p{
+  font-size: 1.6rem;
+  color: rgb(55, 53, 53);
+}
+
+span{
+  color: darkred;
+}
